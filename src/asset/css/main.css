@@ -1,0 +1,111 @@
+/************************************
+ * General CSS file
+ * Group 17
+ * Final design project
+ ***********************************/
+
+
+/***************
+ * General
+ **************/
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+/***************
+ * Header
+ **************/
+
+/***************
+ * Main
+ **************/
+main {
+    flex: 1 0 auto;
+}
+
+/***************
+ * Footer
+ **************/
+
+footer {
+    flex-shrink: 0;
+    background-color: #082032;
+    color: white;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+}
+
+footer .socials {
+    float: right;
+    padding-top: 20px;
+    padding-right: 240px;
+    list-style: none;
+}
+
+footer .socials li {
+    display: inline;
+    padding: 0px 8px 8px 0px;
+}
+
+footer .socials li a {
+    color: white;
+    font-size: 36px;
+}
+
+footer .people {
+    list-style: none;
+    padding-top: 5px;
+}
+
+footer .copy {
+    float: left;
+    padding-left: 240px;
+}
+
+footer .toTop {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+
+footer .topBtn {
+    color: white;
+    width: 50px;
+    background-color: inherit;
+    margin-top: auto;
+    margin-bottom: auto;
+    border: 1px solid white;
+    border-radius: 12px;
+    font-size: 36px;
+    text-align: center;
+    font-weight: bold;
+    height: auto;
+    padding: 3px 0;
+}
+
+/***************
+ * Responsive TODO: Making anything responsive?
+ **************/
