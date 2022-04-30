@@ -33,12 +33,21 @@ a:visited {
 /***************
  * Header
  **************/
-
+header {
+    background-color: #082032;
+    display: inline-block;
+    font-size: .8vw;
+}
+li {
+    display: inline;
+}
 /***************
  * Main
  **************/
 main {
     flex: 1 0 auto;
+    background-color: #334756;
+    color: white;
 }
 
 /***************
