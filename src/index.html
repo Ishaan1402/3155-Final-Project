@@ -1,97 +1,98 @@
 <!DOCTYPE html>
 <html lang="en-US">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="description" content="">
-        <meta name="keywords" content="">
-        <meta name="author" content="ITSC-3155 Group 17">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title></title>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link rel="stylesheet" href="./asset/css/main.css"/>
-        <script src="asset/js/main.js"></script>
-    </head>
-    <body>
-        <header>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Login</a></li>
-                <li><a href="#">Signup</a></li>
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="ITSC-3155 Group 17">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="3155Final.css"/>
+    <script src="3155Final.js"></script>
+    <script src="jquery/jquery.js"></script>
+</head>
+<body>
+<header>
+    <ul id = navbar>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Login</a></li>
+        <li><a href="#">Signup</a></li>
+    </ul>
+</header>
+
+<main>
+    <section>
+        <h1 id = "testing">Find jobs and internships </h1>
+        <p>Browse our selection of 5000+ jobs, and see how their pay can work in your area!</p>
+        <form action="">
+            <input id="keyword" type="text">
+            <select id="distance">
+                <option>0-10 miles</option>
+                <option>11-20 miles</option>
+                <option>21-30 miles</option>
+                <option>31+ miles</option>
+            </select>
+            <select id="experience">
+                <option>Internship</option>
+                <option>Part Time</option>
+                <option>Full Time</option>
+                <option>Contract</option>
+            </select>
+            <input type="submit" id= "submit">
+        </form>
+    </section>
+    <section>
+        <h2>Recent jobs:</h2>
+        <div class="rjob">
+            <h3>Software Engineer (1-2 Years Exp)</h3>
+            <p>Alphabet Inc</p>
+            <p>100k-150k</p>
+        </div>
+        <div class="rjob">
+            <h3>Full Stack Engineering Intern (0 Years Exp)</h3>
+            <p>Centene Corp</p>
+            <p>30-50k</p>
+        </div>
+        <div class="rjob">
+            <h3>Web Developer (2-3 Years Exp)</h3>
+            <p>Home Depot</p>
+            <p>70-80k</p>
+        </div>
+    </section>
+</main>
+
+<footer>
+    <div class="row">
+        <div class="column">
+            <h3 class="copy" style="font-size:.8vw">&copy;2022 Group 17. All Rights Reserved</h3>
+            <br/>
+            <p class="copy" style="font-size:.68vw">
+                A job listing website made for ITSC-3155 by:
+            <ul class="copy people" style="font-size:.65vw">
+                <li>Ishaan Patel</li>
+                <li>Aminah John</li>
+                <li>Harden Lineberry</li>
+                <li>Maurice Nguyen</li>
+                <li>Matt Parks</li>
             </ul>
-        </header>
-
-        <main>
-            <section>
-                <h1>Find jobs and interships </h1>
-                <p>Browse our selection of 5000+ jobs, and see how their pay can work in your area!</p>
-                <form action="">
-                    <input id="keyword" type="text">
-                    <select id="distance">
-                        <option>0-10 miles</option>
-                        <option>11-20 miles</option>
-                        <option>21-30 miles</option>
-                        <option>31+ miles</option>
-                    </select>
-                    <select id="expirence">
-                        <option>Internship</option>
-                        <option>Part Time</option>
-                        <option>Full Time</option>
-                        <option>Contract</option>
-                    </select>
-                    <input type="submit" id="submit">
-                </form> 
-            </section>
-            <section>
-                <h2>Recent jobs:</h2>
-                <div class="rjob">
-                    <h3>Software Engineer (1-2 Years Exp)</h3>
-                    <p>Alphabet Inc</p>
-                    <p>100k-150k</p>
-                </div>
-                <div class="rjob">
-                    <h3>Full Stack Engineering Intern (0 Years Exp)</h3>
-                    <p>Centene Corp</p>
-                    <p>30-50k</p>
-                </div>
-                <div class="rjob">
-                    <h3>Web Developer (2-3 Years Exp)</h3>
-                    <p>Home Depot</p>
-                    <p>70-80k</p>
-                </div>
-            </section>
-        </main>
-
-        <footer>
-            <div class="row">
-                <div class="column">
-                    <h3 class="copy" style="font-size:.8vw">&copy;2022 Group 17. All Rights Reserved</h3>
-                    <br/>
-                    <p class="copy" style="font-size:.68vw">
-                        A job listing website made for ITSC-3155 by:
-                        <ul class="copy people" style="font-size:.65vw">
-                            <li>Ishaan Patel</li>
-                            <li>Aminah John</li>
-                            <li>Harden Lineberry</li>
-                            <li>Maurice Nguyen</li>
-                            <li>Matt Parks</li>
-                        </ul>
-                    </p>
-                </div>
-                <div class="column toTop">
-                    <a href="#" class="topBtn">^</a>
-                </div> 
-                <div class="column">
-                    <ul class="socials">
-                        <li><a href="#"><i class="fa fa-twitter" style="font-size:1.5vw"></i></a></li>
-                        <li><a href="#"><i class="fa fa-facebook" style="font-size:1.5vw"></i></a></li>
-                        <li><a href="#"><i class="fa fa-pinterest" style="font-size:1.5vw"></i></a></li>
-                        <li><a href="#"><i class="fa fa-linkedin" style="font-size:1.5vw"></i></a></li>
-                        <li><a href="#"><i class="fa fa-google-plus" style="font-size:1.5vw"></i></a></li>
-                    </ul>  
-                </div> 
-            </div>
-        </footer>
-    </body>
+            </p>
+        </div>
+        <div class="column toTop">
+            <a href="#" class="topBtn">^</a>
+        </div>
+        <div class="column">
+            <ul class="socials">
+                <li><a href="#"><i class="fa fa-twitter" style="font-size:1.5vw"></i></a></li>
+                <li><a href="#"><i class="fa fa-facebook" style="font-size:1.5vw"></i></a></li>
+                <li><a href="#"><i class="fa fa-pinterest" style="font-size:1.5vw"></i></a></li>
+                <li><a href="#"><i class="fa fa-linkedin" style="font-size:1.5vw"></i></a></li>
+                <li><a href="#"><i class="fa fa-google-plus" style="font-size:1.5vw"></i></a></li>
+            </ul>
+        </div>
+    </div>
+</footer>
+</body>
 </html>
