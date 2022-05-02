@@ -150,3 +150,7 @@ footer .topBtn {
 /***************
  * Responsive TODO: Making anything responsive?
  **************/
+
+a:hover {
+    color: white;
+}
